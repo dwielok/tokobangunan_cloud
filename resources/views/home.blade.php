@@ -18,9 +18,9 @@
                                     alt="" style="height:430px">
                                 <div class="ps-banner__content">
                                     <h4>Semen Terbaik 2022</h4>
-                                    <h3>Semen <br> HOLCIM</h3>
+                                    <h3>Semen <br> INDOCEMEN</h3>
                                     <p><strong>Kuat, Tahan Lama &amp; Harga Murah</strong></p><a class="ps-btn"
-                                        href="#">Cek Sekarang</a>
+                                        href="#">Cek yuk sis </a>
                                 </div>
                             </div>
                         </div>
