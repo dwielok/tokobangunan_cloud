@@ -2,7 +2,7 @@ name: Deploy ke VPS
 
 on:
   push:
-    branches: ["aws"]
+    branches: ["main"]
 
 jobs:
   build:
@@ -19,8 +19,8 @@ jobs:
           PORT: ${{ secrets.PORT }}
           PASSWORD: ${{ secrets.PASSWORD }}
           script: |
-            cd /home/kel5/tb_temp
-            git pull origin aws
+            cd /home/kel5/tokobangunan_cloud
+            git pull origin main
 
       - name: Remove semua container dan images yang sudah ada
         uses: appleboy/ssh-action@master
@@ -42,6 +42,6 @@ jobs:
           PORT: ${{ secrets.PORT }}
           PASSWORD: ${{ secrets.PASSWORD }}
           script: |
-            cd /home/kel5/tb_temp
+            cd /home/kel5/tokobangunan_cloud
             docker build -t tokobangunan .
             docker run -d -it -p 8081:80 tokobangunan
