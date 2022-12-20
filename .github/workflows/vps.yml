@@ -44,4 +44,4 @@ jobs:
           script: |
             cd /home/kel5/tokobangunan_cloud
             docker build -t tokobangunan .
-            docker run -d -it -p 8081:80 tokobangunan
+            docker run -d -it -p 8082:80 tokobangunan
